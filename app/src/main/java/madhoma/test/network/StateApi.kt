@@ -1,4 +1,4 @@
-package madhoma.test
+package madhoma.test.network
 
 import io.reactivex.Single
 import madhoma.test.models.BaseResponse

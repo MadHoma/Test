@@ -1,10 +1,11 @@
-package madhoma.test
+package madhoma.test.ui.detail
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_detail.*
+import madhoma.test.R
 import madhoma.test.models.State
 
 class DetailActivity : AppCompatActivity(){

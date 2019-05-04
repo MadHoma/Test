@@ -1,4 +1,4 @@
-package madhoma.test
+package madhoma.test.ui.main
 
 import androidx.annotation.StringRes
 import com.arellomobile.mvp.MvpView

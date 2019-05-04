@@ -1,11 +1,13 @@
-package madhoma.test
+package madhoma.test.ui.main
 
-import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.arellomobile.mvp.presenter.InjectPresenter
 import kotlinx.android.synthetic.main.activity_main.*
+import madhoma.test.ui.detail.DetailActivity
+import madhoma.test.utils.MvpAppCompatActivity
+import madhoma.test.R
 import madhoma.test.models.State
 
 class MainActivity : MvpAppCompatActivity(), MainView {

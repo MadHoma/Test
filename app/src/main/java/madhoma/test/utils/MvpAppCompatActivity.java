@@ -1,4 +1,4 @@
-package madhoma.test;
+package madhoma.test.utils;
 
 import android.os.Bundle;
 

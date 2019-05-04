@@ -3,7 +3,7 @@ package madhoma.test.di
 import android.content.Context
 import dagger.BindsInstance
 import dagger.Component
-import madhoma.test.MainPresenter
+import madhoma.test.ui.main.MainPresenter
 import javax.inject.Singleton
 
 @Singleton

@@ -1,10 +1,11 @@
-package madhoma.test
+package madhoma.test.ui.main
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.li_state.view.*
+import madhoma.test.R
 import madhoma.test.models.State
 
 class StateAdapter( private val onClickItem: (item: State) -> Unit) : RecyclerView.Adapter<StateAdapter.StateHolder>() {
@@ -12,7 +13,13 @@ class StateAdapter( private val onClickItem: (item: State) -> Unit) : RecyclerVi
     var list: List<State> = emptyList()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StateHolder {
-        return StateHolder(LayoutInflater.from(parent.context).inflate(R.layout.li_state, parent, false))
+        return StateHolder(
+            LayoutInflater.from(parent.context).inflate(
+                R.layout.li_state,
+                parent,
+                false
+            )
+        )
     }
 
     override fun getItemCount(): Int {

@@ -1,4 +1,4 @@
-package madhoma.test
+package madhoma.test.ui.main
 
 import android.annotation.SuppressLint
 import com.arellomobile.mvp.InjectViewState
@@ -7,6 +7,9 @@ import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
+import madhoma.test.App
+import madhoma.test.R
+import madhoma.test.network.StateApi
 import java.net.UnknownHostException
 import javax.inject.Inject
 
