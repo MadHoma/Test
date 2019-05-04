@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Test</string>
+    <string name="network_error">Сервер недоступен!\nПроверьте соединение.</string>
+    <string name="unknown_error">Неизвестная ошибка!</string>
 </resources>
